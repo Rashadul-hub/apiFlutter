@@ -1,6 +1,9 @@
 # apiflutter
 
-A new Flutter project.
+Make Sure To Add This Dependencies on yaml File .
+  http: ^1.2.1
+  modal_progress_hud_nsn: ^0.5.1
+
 
 ## Getting Started
 
