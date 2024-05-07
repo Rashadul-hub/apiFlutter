@@ -1,5 +1,6 @@
 import 'package:apiflutter/home_screen.dart';
 import 'package:apiflutter/signup.dart';
+import 'package:apiflutter/upload_images.dart';
 import 'package:apiflutter/user_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -49,6 +50,10 @@ class _NavigationExampleState extends State<NavigationExample> {
             icon: Icon(Icons.login),
             label: 'Sign up',
           ),
+          NavigationDestination(
+            icon: Icon(Icons.upload_file),
+            label: 'Upload Image',
+          ),
         ],
       ),
 
@@ -61,6 +66,7 @@ class _NavigationExampleState extends State<NavigationExample> {
           ComplexApiScreen(),
           ComplexObjectApiScreen(),
           SignUpScreen(),
+          UploadImageScreen(),
 
         ],
       ),
